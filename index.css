@@ -14,7 +14,7 @@ header{
 header nav{
     display: flex;
    justify-content: space-between;
-   max-width:1440px;
+   max-width:1540px;
    margin: auto;
   
  padding-top: 80px;
@@ -24,15 +24,28 @@ width:200px;
 height:190px;
 
 }
-nav .logo img{
-    width: 100%;
+nav .logo {
+     font-size: 50px;
+    font-weight:bolder;
+    color: #4E47FF;
+    text-transform: uppercase;
+    margin-left: -20px;
 }
 .sing-up-button button{
 height: 45px;
-width: 130px;
+width: 150px;
 border-radius: 5px;
 border: none;
 background-color: #4E47FF;
+cursor: pointer;
+}
+
+.sing-up-button button:hover{
+    background: #47ff6fd5;
+    width: 160px;
+    height: 50px;
+    transition: 1s;
+    
 }
 .sing-up-button button a{
     text-decoration: none;
@@ -41,9 +54,8 @@ background-color: #4E47FF;
     text-transform: capitalize;
 
 }
-.logo img{
-    width: 100%;
-}
+
+
 .template{
     display: flex;
     flex-direction: column;
@@ -55,21 +67,32 @@ background-color: #4E47FF;
     height:230px;
     width:800px;
     margin:auto;
-   background-color: #00000081;
-  border: 1px solid black;
+   
+ 
   text-align: center;
    
 
 }
  .template .template-button{
- 
-   padding: 15px 25px;
+ width: 250px;
+   padding: 15px 35px;
 
 border-radius: 5px;
 border: none;
 background-color: #4E47FF;
 margin-top: 20px;
 }
+
+.template .template-button:hover{
+    width: 280px;
+   padding: 20px 70px;
+
+border-radius: 5px;
+
+    background: #47ff6fd5;
+transition: 1s;
+}
+
 .template .template-button a{
      text-decoration: none;
     color: #fff;
@@ -91,7 +114,7 @@ main{
 .action{
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 100px;
 }
 .action-left{
@@ -113,12 +136,23 @@ main{
     
 }
 .action-left button{
+    width: 300px;
 padding: 15px 25px;
 background-color: #4E47FF;
 border-radius: 5px;
 border: none;
 margin-top: 20px;
+cursor: pointer;
 }
+
+.action-left button:hover{
+background: #47ff6fd5;
+width: 350px;
+padding: 25px 35px;
+transition: 1s;
+}
+
+
 .action-left button a{
   text-decoration: none;
     color: #fff;
@@ -235,4 +269,149 @@ width: 70px;
 .second-part .name-date p{
     color: #767580;
     text-transform: capitalize;
+}
+
+.newslater-section{
+   margin-top: 40px;
+}
+.newslater-full{
+    display: flex;
+    width: 1140px;
+    height: 650px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.newslater-left{
+    width: 528px;
+    display: flex;
+    
+}
+.newslater-left h2{
+    font-size: 100px;
+    
+}
+.newslater-right{
+    height: 490px;
+    width: 500px;
+}
+.newslater-right   input{
+    display: block;
+    width: 100%;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    
+
+}
+
+.newslater-right  ::placeholder {
+  
+  
+  text-transform: capitalize;
+}
+
+#textarea{
+text-transform: capitalize;
+padding-left: 20px ;
+padding-top: 15px;
+}
+.newslater-right textarea{
+    width: 100%;
+border: none;
+outline: none;
+   
+}
+.newslater-button{
+     background-color: #4E47FF;
+     height: 60px;
+     width: 104%;
+     margin-top: 15px;
+     border-radius: 10px;
+     outline: none;
+     cursor: pointer;
+
+}
+.newslater-button:hover{
+    background: #47ff6fd5;
+    transition: 1s;
+    font-size: 15px;
+    color: #000;
+}
+
+.newslater-button button{
+    outline: none;
+}
+
+.newslater-button a{
+    text-decoration: none;
+    border-radius: 5px;
+border: none;
+
+font-size: 15px;
+color: #fff;
+width: 100%;
+}
+
+
+
+form .label{
+    display: block;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+
+footer{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.footer-section{
+
+width: 550px;
+height: 200px;
+padding: 70px 0;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 15px;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:20px;
+    padding: 0 10px;
+       color: #8987A1;
+   
+}
+
+
+
+.footer-section .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-transform: uppercase;
+}
+.text p{
+    color: #8987A1;
+    font-size: 18px;
+    margin-left: 40px;
+    padding: 10px 0;
 }
